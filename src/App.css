@@ -1,0 +1,72 @@
+
+body *{
+  text-align: center;
+  margin: auto;
+}
+.hero{
+  width: auto;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: aquamarine;
+  border-radius: 5px;
+  text-align: center;
+}
+.hero input{
+  border-radius: 5px;
+  padding-left: 20px;
+  padding: 5px;
+  background-color: rgb(204, 252, 236);
+  border: none;
+  outline: none;
+}
+#btn{
+  margin-top: 5px;
+  padding: 5px; 
+  background-color:aquamarine;
+  transition: .2s;
+  
+}
+#btn:hover{
+  background-color: rgb(204, 252, 236);
+  border-color: rgb(204, 252, 236);
+  
+}
+#btn:focus{
+  outline: none;
+  
+}
+
+.listContainer{
+  text-align: center;
+
+  
+}
+
+.list{
+  width: auto;
+  margin-top: 10px;
+  margin-left: -39.5px;
+  list-style-type: none;
+  background-color: bisque;
+  padding: 10px;
+  border-radius:5px;
+  text-align: center;
+
+}
+.list button{
+  margin-top: 0;
+  margin-left: 10px;
+
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(78, 31, 31);
+  color: aliceblue;
+  
+}
+
+
+
